@@ -1,0 +1,13 @@
+$mainColor:#1B212C;
+$mainColor2:#595e66;
+$fontColor:#ffd6ae;
+$fontColor2:orange;
+$white:white;
+
+$width: 768px;
+
+@mixin mobile{
+    @media (max-width: #{$width}) {
+        @content
+    }
+}
